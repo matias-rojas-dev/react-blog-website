@@ -1,0 +1,73 @@
+.settings_container{
+    display: flex;
+
+}
+
+.settings_wrapper{
+    flex: 9;
+    padding:20px
+}
+
+.settings_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.settings_UpdateTitle{
+    font-size: 30px;
+}
+
+.settings_DeleteTitle{
+    font-size: 12px
+
+}
+
+.settings_form{
+    display: flex;
+    flex-direction: column;
+}
+.settings_form label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settings_form input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+
+
+}
+.settings_personal-data{
+    display: flex;
+    align-items: center;
+    margin-top: 12px 0;
+}
+.settings_personal-data img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.settings_icons{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.settings_button{
+    width: 150px;
+        align-self: center;
+}

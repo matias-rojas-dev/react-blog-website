@@ -1,0 +1,66 @@
+.write_absolute-container{
+    width: 100%;
+}
+
+.write_container{
+    padding-top: 50px ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.write_form{
+    position: relative;
+}
+
+.write_form-group{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.write_icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.write_input{
+    font-size: 30px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 70px
+}
+
+.write_text{
+    border: none;
+    font-size: 20px;
+    height: 100vh;
+    width:100%
+}
+
+.write_button{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background: gray;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.write_img{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
