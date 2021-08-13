@@ -4,11 +4,13 @@ export const WritePage = () => {
     return (
         <div className="write_absolute-container">
             <div className="write_container">
-                <img
-                    className="write_img"
-                    src="https://www.rdstation.com/blog/wp-content/uploads/sites/2/2017/11/estructura-de-post-new.png"
-                    alt="Post img blog"
-                />
+                <div className="write_img-container">
+                    <img
+                        className="write_img"
+                        src="https://www.rdstation.com/blog/wp-content/uploads/sites/2/2017/11/estructura-de-post-new.png"
+                        alt="Post img blog"
+                    />
+                </div>
                 <form className="write_form">
                     <div className="write_form-group">
                         <label

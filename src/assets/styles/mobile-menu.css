@@ -1,0 +1,28 @@
+.MuiMenu-list {
+    outline: 0;
+    background: white;
+    width: 200px !important;
+    text-align: center;
+
+}
+.MuiTypography-displayBlock{
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mobile-menu_container{
+    display: block;
+}
+.MuiTypography-body1 {
+    font-family: 'Josefin Sans', sans-serif !important;
+
+}
+
+@media (max-width: 600px) {
+
+    .mobile-menu_container{
+        display: block;
+        flex: 2;
+    }
+  }

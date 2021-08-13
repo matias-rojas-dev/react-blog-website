@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(201, 201, 201);
+    background: coral;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .login_form{
@@ -17,8 +18,9 @@
     font-size: 50px;
 }
 
-.login_form label {
-    margin: 10px 0;
+.login_form input {
+    margin: 5px 0;
+    text-align: center;
 }
 
 .login_input{
@@ -26,10 +28,11 @@
     background: white;
     border: none ;
     outline: none;
+
 }
 
 .login_button{
-    margin-top: 20px;
+    margin: 20px 0;
     cursor: pointer;
     background-color: coral;
     border: none;
@@ -41,4 +44,14 @@
 .login_button-register{
     font-weight: lighter;
     font-size: 20px;
+}
+
+.login_section{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 300px;
+    background: rgb(237, 237, 237);
 }
